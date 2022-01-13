@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <org.rave.converter.CustomConverterView
+        android:id="@+id/poundsToKilograms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayHint="@string/kilogram_s"
+        app:label="@string/pound_s" />
+
+    <org.rave.converter.CustomConverterView
+        android:id="@+id/poundsToOunces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayHint="@string/ounces_s"
+        app:label="@string/pound_s" />
+
+    <org.rave.converter.CustomConverterView
+        android:id="@+id/poundsToStones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayHint="@string/stones_s"
+        app:label="@string/pound_s" />
+
+    <org.rave.converter.CustomConverterView
+        android:id="@+id/kilogramsToPounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayHint="@string/pound_s"
+        app:label="@string/kilogram_s" />
+
+    <org.rave.converter.CustomConverterView
+        android:id="@+id/kilogramsToGrams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayHint="@string/grams_s"
+        app:label="@string/kilogram_s" />
+
+    <org.rave.converter.CustomConverterView
+        android:id="@+id/kilogramsToMilligrams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayHint="@string/milligrams_s"
+        app:label="@string/kilogram_s" />
+
+</LinearLayout>

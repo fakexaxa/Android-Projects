@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Converter</string>
+
+    <string name="pound_s">Pound(s)</string>
+    <string name="pound_s_value">%s Pound(s)</string>
+
+    <string name="kilogram_s">Kilogram(s)</string>
+    <string name="kilogram_s_value">%s Kilogram(s)</string>
+
+    <string name="ounces_s">Ounce(s)</string>
+    <string name="ounce_s_value">%s Ounce(s)</string>
+
+    <string name="stones_s">Stone(s)</string>
+    <string name="stone_s_value">%s Kilogram(s)</string>
+
+    <string name="grams_s">Gram(s)</string>
+    <string name="gram_s_value">%s Gram(s)</string>
+
+    <string name="milligrams_s">Milligram(s)</string>
+    <string name="milligram_s_value">%s Milligram(s)</string>
+
+    <!-- TODO: 7e Add value strings if needed -->
+
+</resources>
