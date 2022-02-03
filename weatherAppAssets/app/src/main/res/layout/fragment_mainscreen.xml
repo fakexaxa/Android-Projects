@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightblue"
+    tools:context="com.example.weatherappassets.view.fragments.MainScreen">
+
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/gl_h4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>/>
+
+    <TextView
+        android:id="@+id/tv_city_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        app:layout_constraintBottom_toTopOf="@id/rv_citydata"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:text="date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintTop_toBottomOf="@id/gl_h2"
+        app:layout_constraintBottom_toTopOf="@id/gl_h3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:text="Temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+        app:layout_constraintTop_toBottomOf="@id/gl_h3"
+        app:layout_constraintBottom_toTopOf="@id/gl_h4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".23"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".27"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".32"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".44"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".47"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".53"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".585"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@id/gl_h5"/>
+
+    <include
+        android:id="@+id/include_id"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        layout="@layout/mondayto_friday"
+        app:layout_constraintTop_toBottomOf="@id/gl_h4"
+        app:layout_constraintBottom_toTopOf="@id/gl_h6"/>
+
+    <include
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        layout="@layout/weather_headers"
+        app:layout_constraintBottom_toTopOf="@id/gl_h5"
+        app:layout_constraintTop_toBottomOf="@id/gl_h7"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_citydata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_citydata"
+        app:layout_constraintTop_toBottomOf="@id/gl_h6"
+        app:layout_constraintBottom_toTopOf="@id/gl_h7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:spanCount="7"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_hour_weather_data"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_hourly_weather"
+        app:layout_constraintTop_toBottomOf="@id/gl_h5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/loader"
+        android:indeterminate="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
