@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/navigation_nav_favorite_graph.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/navigation/nav_favorite_graph.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/drawable_ic_clearicon.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/drawable/ic_clearicon.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/layout_item_media.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/layout/item_media.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/layout_fragment_favorite.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/build/intermediates/merged_res/debug/drawable_ic_primary_edit_remove.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_favorite/src/main/res/drawable/ic_primary_edit_remove.xml"
+    }
+]

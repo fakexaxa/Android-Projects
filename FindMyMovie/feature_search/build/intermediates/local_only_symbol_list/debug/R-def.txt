@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_baseline_explore_24
+drawable ic_favorite_svgrepo_com
+id cv_query
+id gl_end
+id gl_start
+id iv_favIcon
+id iv_poster
+id loading
+id rv_results
+id searchFragment
+id sv_query
+id tv_no_query
+id tv_title
+layout fragment_search
+layout item_media
+navigation nav_search_graph
+string search_hint
+string search_to_being_exploring
+string title_feature_search

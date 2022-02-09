@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/build/intermediates/merged_res/debug/drawable_ic_baseline_explore_24.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/src/main/res/drawable/ic_baseline_explore_24.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/build/intermediates/merged_res/debug/navigation_nav_search_graph.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/src/main/res/navigation/nav_search_graph.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/build/intermediates/merged_res/debug/drawable_ic_favorite_svgrepo_com.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/src/main/res/drawable/ic_favorite_svgrepo_com.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/build/intermediates/merged_res/debug/layout_fragment_search.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/build/intermediates/merged_res/debug/layout_item_media.xml.flat",
+        "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/src/main/res/layout/item_media.xml"
+    }
+]

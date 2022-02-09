@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_clearicon
+drawable ic_primary_edit_remove
+id btn_clear
+id cv_query
+id favoriteFragment
+id gl_end
+id gl_start
+id iv_poster
+id iv_removeIcon
+id rv_results
+id tv_title
+layout fragment_favorite
+layout item_media
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+navigation nav_favorite_graph
+string title_feature_favorite

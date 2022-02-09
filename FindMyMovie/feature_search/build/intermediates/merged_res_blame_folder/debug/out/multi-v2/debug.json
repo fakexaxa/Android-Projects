@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/build/intermediates/merged_res/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/rave45/AndroidStudioProjects/FindMyMovie/feature_search/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "114,193,57",
+                        "endColumns": "77,79,55",
+                        "endOffsets": "187,268,108"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,213",
+                        "endColumns": "77,79,55",
+                        "endOffsets": "128,208,264"
+                    }
+                }
+            ]
+        }
+    ]
+}
