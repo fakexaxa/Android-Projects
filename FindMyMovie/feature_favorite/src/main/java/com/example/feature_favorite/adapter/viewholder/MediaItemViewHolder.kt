@@ -31,6 +31,7 @@ class MediaItemViewHolder(
         }
         binding.ivRemoveIcon.setOnClickListener {
             listener.onItemClick(mediaItem)
+            
         }
     }
 

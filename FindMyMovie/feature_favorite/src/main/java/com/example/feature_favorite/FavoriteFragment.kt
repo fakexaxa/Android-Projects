@@ -11,13 +11,12 @@ import com.example.feature_favorite.databinding.FragmentFavoriteBinding
 import com.example.feature_favorite.util.ViewState
 import com.example.feature_favorite.viewmodel.FavoritesViewModel
 import com.example.omdb.response.FavoriteMediaItem
+import com.google.android.material.snackbar.Snackbar
 
 class FavoriteFragment : Fragment(), MediaItemViewHolder.OnItemClickListener {
     private var _binding: FragmentFavoriteBinding? = null
     private val binding get() = _binding!!
-
     private val viewModel by viewModels<FavoritesViewModel>()
-
     private val mediaItemsAdapter by lazy { MediaItemsAdapter(this) }
 
     override fun onCreateView(
@@ -42,6 +41,7 @@ class FavoriteFragment : Fragment(), MediaItemViewHolder.OnItemClickListener {
 
         btnClear.setOnClickListener {
             viewModel.deleteFavList()
+            Snackbar.make(binding.root, "Cleared Favorite List",800).show()
         }
     }
     private fun initObservers() = with(viewModel) {
@@ -51,6 +51,7 @@ class FavoriteFragment : Fragment(), MediaItemViewHolder.OnItemClickListener {
     }
     override fun onItemClick(item: FavoriteMediaItem) {
         viewModel.deleteItem(item.imdbID)
+        Snackbar.make(binding.root, "Deleted Movie from Favorite list", 800).show()
     }
 
 }

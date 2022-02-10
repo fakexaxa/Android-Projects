@@ -11,6 +11,7 @@
         <entry key="feature_search/src/main/res/drawable/ic_baseline_explore_24.xml" value="0.133" />
         <entry key="feature_search/src/main/res/drawable/ic_favorite_icon.xml" value="0.133" />
         <entry key="feature_search/src/main/res/drawable/ic_favorite_svgrepo_com.xml" value="0.133" />
+        <entry key="feature_search/src/main/res/drawable/ic_favorite_yellow.xml" value="0.1415" />
         <entry key="feature_search/src/main/res/layout/fragment_search.xml" value="0.15520833333333334" />
         <entry key="feature_search/src/main/res/layout/item_media.xml" value="0.19610507246376813" />
       </map>

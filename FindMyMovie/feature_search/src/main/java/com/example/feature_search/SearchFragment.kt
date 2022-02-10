@@ -5,10 +5,12 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import com.example.feature_search.adapter.MediaItemsAdapter
 import com.example.feature_search.adapter.viewholder.MediaItemViewHolder
 import com.example.feature_search.databinding.FragmentSearchBinding
@@ -17,11 +19,16 @@ import com.example.feature_search.util.hideKeyboard
 import com.example.feature_search.viewmodel.SearchViewModel
 import com.example.omdb.response.FavoriteMediaItem
 import com.example.omdb.response.MediaItem
+import com.google.android.material.snackbar.Snackbar
+import kotlinx.coroutines.flow.forEach
+import kotlinx.coroutines.flow.withIndex
+import kotlinx.coroutines.launch
 
 class SearchFragment (): Fragment() ,MediaItemViewHolder.OnItemClickListener{
 
     private var _binding: FragmentSearchBinding? = null
     private val binding get() = _binding!!
+
 
     private val viewModel by viewModels<SearchViewModel>()
 
@@ -44,7 +51,6 @@ class SearchFragment (): Fragment() ,MediaItemViewHolder.OnItemClickListener{
         }
 
     }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -58,7 +64,6 @@ class SearchFragment (): Fragment() ,MediaItemViewHolder.OnItemClickListener{
         initViews()
         initObservers()
     }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
@@ -77,7 +82,6 @@ class SearchFragment (): Fragment() ,MediaItemViewHolder.OnItemClickListener{
             binding.tvNoQuery.isVisible = mediaItemsAdapter.itemCount < 1
         }
     }
-
     private fun handleError(state: ViewState.Failure) {
         val errorMsg = when (state) {
             is ViewState.Failure.NoMediaItemsFound -> "NoMediaItemsFound"
@@ -88,8 +92,11 @@ class SearchFragment (): Fragment() ,MediaItemViewHolder.OnItemClickListener{
         Log.d("SearchFragment", "handleError: $errorMsg")
     }
 
-    override fun onItemClick(item: MediaItem) {
+    override fun onItemClick(item: MediaItem)= with(viewModel) {
         viewModel.onItemClick(item.imdbID)
+        Snackbar.make(binding.root, "Added Movies to Favorites",800).show()
     }
+
+
 
 }

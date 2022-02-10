@@ -31,6 +31,7 @@ class MediaItemViewHolder(
         }
         binding.ivFavIcon.setOnClickListener {
             listener.onItemClick(mediaItem)
+            binding.ivFavIcon.setImageResource(com.example.feature_search.R.drawable.ic_favorite_yellow)
         }
 
     }

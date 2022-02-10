@@ -28,4 +28,6 @@ interface FavoriteItemDao {
 
     @Query("DELETE  FROM favorite_list WHERE imdb_id=:id")
     suspend fun deleteItem(id: String)
+
+
 }

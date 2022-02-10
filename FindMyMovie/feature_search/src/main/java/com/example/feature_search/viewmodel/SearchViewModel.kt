@@ -9,13 +9,15 @@ import com.example.omdb.OmdbRepo
 import com.example.omdb.response.FavoriteMediaItem
 import com.example.omdb.response.MediaItem
 import com.example.omdb.response.SearchResponse
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
 
 class SearchViewModel(app: Application) : AndroidViewModel(app) {
 
     private val omdbRepo by lazy { OmdbRepo(getApplication()) }
-
+    val mediaItems=omdbRepo.mediaItems.asLiveData()
+    val faveItems=omdbRepo.favMediaItems.asLiveData()
     private val _viewState = MutableLiveData<ViewState>(ViewState.NoQuery)
     val viewState: LiveData<ViewState> get() = _viewState
 
@@ -24,7 +26,6 @@ class SearchViewModel(app: Application) : AndroidViewModel(app) {
             omdbRepo.mediaItems.firstOrNull()?.let { mediaItems ->
                 _viewState.value = ViewState.Success(mediaItems)
             }
-
         }
     }
 
@@ -75,12 +76,12 @@ class SearchViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-        fun onItemClick(id: String) {
+    fun onItemClick(id: String) {
         viewModelScope.launch {
             omdbRepo.addItemToFavorites(id)
         }
-
     }
+
 
 
 }

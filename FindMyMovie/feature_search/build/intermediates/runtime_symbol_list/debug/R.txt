@@ -1,5 +1,6 @@
 int drawable ic_baseline_explore_24 0x7e010000
 int drawable ic_favorite_svgrepo_com 0x7e010001
+int drawable ic_favorite_yellow 0x7e010002
 int id cv_query 0x7e020000
 int id gl_end 0x7e020001
 int id gl_start 0x7e020002

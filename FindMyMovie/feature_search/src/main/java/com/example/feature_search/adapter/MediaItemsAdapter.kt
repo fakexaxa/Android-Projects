@@ -9,7 +9,6 @@ import com.example.omdb.response.MediaItem
 class MediaItemsAdapter(private val listener: MediaItemViewHolder.OnItemClickListener) : ListAdapter<MediaItem, MediaItemViewHolder>(diffUtilItemCallback) {
 
 
-
     override fun onCreateViewHolder(
         parent: ViewGroup, viewType: Int
     ) = MediaItemViewHolder.newInstance(parent,listener)
