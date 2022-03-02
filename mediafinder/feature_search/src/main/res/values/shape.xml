@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearance.MinimizedSheet" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSizeTopLeft">@dimen/minimized_sheet_top_left_radius</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0px</item>
+    </style>
+
+    <dimen name="minimized_sheet_top_left_radius">48dp</dimen>
+
+</resources>
